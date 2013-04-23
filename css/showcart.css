@@ -1,0 +1,14 @@
+#jcart {width:300px; float:right;z-index=1000; position:absolute; top:371px}
+#sidebar { float:right; width:300px; border:0px;}
+.first { background-color:#FFFFFF}
+.gray { background-color:#F0F8FF}
+
+.tabs {font-family:Verdana,Arial,sans-serif;font-size:12px;line-height:14px;; float:left; width:100%;padding: 1px; zoom: 1; }
+.tabs ul {background-color: #fff;color:#222222;font-weight:bold;display:block;border-bottom:1px solid #AAAAAA;height:28px; padding:0; margin:0; padding-left:20px;}
+.tabs ul li {-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;border-bottom:0 none !important;float:left;list-style:none;margin:0 0.2em 1px 0;padding:0;position:relative;top:1px;white-space:nowrap;color:#555555;font-weight:blod;}
+.tabs ul li.tabs_active {margin-bottom:0;padding-bottom:1px;background-color:#fff;  border:1px solid #aaa;color:#333;}
+.tabs ul li.tabs_hover{margin-bottom:0;padding-bottom:1px;background-color:#fff;border:1px solid #999;}
+.tabs ul li a {float:left;padding:0.5em 1em;text-decoration:none;cursor:pointer;color:#777;}
+.tabs ul li.tabs_active a {color:#333;}
+.tabs ul li.tabs_active a {color:#555555;}
+.ui-tabs .ui-tabs-panel {background:none repeat scroll 0 0 transparent;border-width:0;display:block;padding:1em 1.4em;}

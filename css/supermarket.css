@@ -1,0 +1,12 @@
+*{margin:0;padding:0;}
+
+.sidelist{position:relative;z-index:1;height:32px;width:132px;}
+.sidelist span h3{;position:relative;z-index:2;height:32px;line-height:32px;font-size:14px;font-weight:normal;}
+.sidelist span h3 a{font-size:14px;text-decoration:none;display:block;width:auto;height:auto;color:#000;}
+.sidelist span h3 a:hover{color:red;font-weight:bold;}
+.i-list{display:none;position:absolute;z-index:1;left:130px;top:-20px;width:180px;min-height:50px;padding:15px;background:#fff9ef;border:1px solid #F30;}
+.i-list ul li{width:60px;float:left;list-style:none;line-height:32px;heignt:32px;}
+.i-list ul li a{color:#000;text-decoration:none;font-size:12px;}
+.i-list ul li a:hover{text-decoration:underline;color:red;}
+
+.hover{border:1px solid #c30;border-right:0;width:80px;background:#fff9ef;}

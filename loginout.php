@@ -1,0 +1,9 @@
+<?php
+session_start();
+setcookie("renrenid","");
+setcookie('pd','');
+setcookie('email','');
+setcookie('mark','');
+unset($_SESSION['email']);
+header("Location:./index.php");
+?>

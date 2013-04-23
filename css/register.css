@@ -1,0 +1,38 @@
+.cover {
+	POSITION: absolute; BACKGROUND-COLOR: #ffffff; WIDTH: 980px; HEIGHT: 15px
+}
+
+/*reg page*/
+.reg_main{width:914px;margin:0px auto;}
+.reg_main div{float:left;}
+.reg_main h1{font-size:14px;margin:6px 0px;}
+.reg_left{width:485px;margin-top:16px;}
+.reg_left table{clear:both;}
+.reg_line{width:3px;border-left:1px solid #cccccc;height:240px;}
+
+.reg_log{width:416px;text-align:center;padding-top:72px;font-size:14px;color:#000;margin-top:16px;}
+
+input.error{border:1px solid #c93215;}
+label.error {
+	font-size:13px;
+	padding:3px 0px 3px 132px;
+	width:300px;
+	display:block;
+	color:#c93215;
+	clear:both;
+	float:none;
+	background: url(../images/error.gif) 107px no-repeat;	
+}
+.reg_input {
+	BORDER-BOTTOM: #d8d8da 1px solid; BORDER-LEFT: #363636 1px solid; BACKGROUND-COLOR: #f1f1f1; BORDER-TOP: #363636 1px solid; BORDER-RIGHT: #d8d8da 1px solid
+}
+.reg_wronginput {
+	BORDER-BOTTOM: #ff0000 1px solid; BORDER-LEFT: #ff0000 1px solid; BORDER-TOP: #ff0000 1px solid; BORDER-RIGHT: #ff0000 1px solid
+}
+
+.reg_inp {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; WIDTH: 214px; PADDING-RIGHT: 3px; HEIGHT: 19px; MARGIN-LEFT: 20px; FONT-SIZE: 13px; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 3px
+}
+.reg_btn {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 91px; BACKGROUND: url(../images/btn.gif); BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 26px; COLOR: #ffffff; MARGIN-LEFT: 20px; FONT-SIZE: 13px; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-WEIGHT: bold
+}

@@ -1,0 +1,43 @@
+ <html lang="zh-cn">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>
+            Demo for QQ登录
+        </title>
+        <script type="text/javascript">
+            var childWindow;
+            function toQzoneLogin()
+            {
+                childWindow = window.open("oauth/redirect_to_login.php","TencentLogin","width=450,height=320,menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1");
+            } 
+            
+            function closeChildWindow()
+            {
+                childWindow.close();
+            }
+        </script>
+    </head>
+    <body>
+        <font size=10><a href="http://wiki.opensns.qq.com/wiki/%E3%80%90QQ%E7%99%BB%E5%BD%95%E3%80%91%E5%BC%80%E5%8F%91%E8%80%85%E6%95%99%E7%A8%8B" target="_blank">新手教程</a></font>
+		 <p>使用本SDK前需要进行必要的修改：</p>
+        <p>1. 修改comm/config.php文件中的$_SESSION["appid"]，$_SESSION["appkey"], $_SESSION["callback"]三个变量的值，以确保可以正常登录.</p>
+        <br>
+		 <p>2. 按照comm/session.php中的注释对session.php进行必要的修改，以支持子域名共享session以及跨服务器共享session，防止多子域名跳转出错或者两次请求的sessoin信息不保存在同一台服务器导致的访问出错.</p>
+		 <br><br>
+        <a href="#" onclick='toQzoneLogin()'><img src="img/qq_login.png"></a>
+        <!--a href="redirect_to_login.php" target="_blank" ><img src="img/qq_login.png"></a-->
+        <br><br>
+        <a href="user/get_user_info.php"    target="_blank">获取用户信息</a>
+		<br><br>
+        <a href="share/add_share.html"      target="_blank">添加FEEDS</a>
+        <br>
+        <br>
+        <a href="photo/list_album.php"      target="_blank">获取相册列表</a>
+        <br><br>
+        <a href="photo/add_album.html"      target="_blank">创建相册</a>
+        <br><br>
+        <a href="photo/upload_pic.html"     target="_blank">上传相片</a>
+        <br><br>
+        <a href="blog/add_blog.html"     target="_blank">发表日志</a>
+    </body>
+</html>
